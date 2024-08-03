@@ -79,14 +79,6 @@ services:
     depends_on:
       - rtmp
 
-  frontend:
-    build: ./frontend
-    container_name: frontend_server
-    ports:
-      - "3000:3000"
-    depends_on:
-      - backend
-
   prometheus:
     image: prom/prometheus
     ports:
