@@ -8,9 +8,7 @@ This project sets up a live streaming server with authentication, Prometheus mon
 - Node.js and npm
 - OBS Studio (for streaming)
 
-```bash
-pip install foobar
-```
+
 
 ## Setup Instructions
 ## 1. Clone the Repository 
